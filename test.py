@@ -1,7 +1,7 @@
 import random
 
 def generate_numbers(count, low, high):
-    return [random.randint(low, high) for _ in range(count)]
+    return [random.randint(low, high + 1) for _ in range(count)]
 
 def average(numbers):
     if not numbers:
