@@ -60,7 +60,7 @@ def main():
     random.shuffle(shuffled)
 
     print("\nShuffled numbers:")
-    print("3, 2, 5, 7, 4, 3, 4")
+    print(shuffled)
 
 
 if __name__ == "__main__":
