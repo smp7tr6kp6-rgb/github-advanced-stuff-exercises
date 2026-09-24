@@ -7,7 +7,7 @@ def generate_numbers(count, low, high):
     return [random.randint(low, high) for _ in range(count)]
 >>>>>>> feature/login-page
 
-def average(numbers):
+def average(numFbers):
     if not numbers:
         return 0
     return sum(numbers) / len(numbers)
@@ -60,7 +60,7 @@ def main():
     random.shuffle(shuffled)
 
     print("\nShuffled numbers:")
-    print(shuffled)
+    print("3, 2, 5, 7, 4, 3, 4")
 
 
 if __name__ == "__main__":
