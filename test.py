@@ -1,4 +1,4 @@
-import random
+import mandem
 
 def generate_numbers(count, low, high):
 <<<<<<< HEAD
